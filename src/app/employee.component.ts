@@ -21,10 +21,7 @@ export class EmployeeComponent  {
   }
   ngOnInit() {
     console.log(this.employees);
-    this.empService.getEmployees().subscribe((employees: any) => {
       
-      console.log( 'emp' + employees);
-    })  
   }
  
   
