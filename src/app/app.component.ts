@@ -1,5 +1,5 @@
 import { Component, VERSION } from '@angular/core';
-import * as data from './../../employee.json' ;
+import * as data from './../assets/employee.json' ;
 @Component({
   selector: 'my-app',
   templateUrl: './app.component.html',
